@@ -1,0 +1,27 @@
+[project]
+name = "necrotongue"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "me",email = "me@gmail.com"}
+]
+readme = "README.md"
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.dependencies]
+python = "3.13.6"
+
+pyaudio = "^0.2.14"
+pynput = "^1.8.1"
+rumps = "^0.4.0"
+pyobjc = "^11.1"
+pyperclip = "^1.9.0"
+requests = "^2.32.4"
+loguru = "^0.7.3"
+pydantic-settings = "^2.10.1"
